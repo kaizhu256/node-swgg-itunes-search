@@ -55,17 +55,10 @@ this zero-dependency package will provide a swagger-client for itunes-search's w
 [![apidoc](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-swgg-itunes-search/build..beta..travis-ci.org/apidoc.html)
 
 #### todo
+- npm publish 2018.1.16
 - none
 
-#### changelog for v2018.1.15
-- npm publish 2018.1.15
-- add api GET /lookup#amgAlbumId.required
-- add api GET /lookup#amgArtistId.required
-- add api GET /lookup#amgVideoId.required
-- add api GET /lookup#id.required
-- add api GET /lookup#isbn.required
-- add api GET /lookup#upc.required
-- add api GET /search
+#### changelog for v2018.1.16
 - none
 
 #### this package requires
@@ -343,7 +336,7 @@ instruction
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
     },
-    "version": "2018.1.15"
+    "version": "2018.1.16"
 }
 ```
 
