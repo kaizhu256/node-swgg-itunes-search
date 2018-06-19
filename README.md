@@ -55,10 +55,11 @@ this zero-dependency package will provide a swagger-client for itunes-search's w
 [![apidoc](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-swgg-itunes-search/build..beta..travis-ci.org/apidoc.html)
 
 #### todo
-- npm publish 2018.1.16
 - none
 
 #### changelog for v2018.1.16
+- npm publish 2018.1.16
+- update build
 - none
 
 #### this package requires
