@@ -8,9 +8,7 @@ this zero-dependency package will provide a swagger-client for itunes-search's w
 
 
 
-[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-itunes-search.svg)](https://travis-ci.org/kaizhu256/node-swgg-itunes-search) [![coverage](https://kaizhu256.github.io/node-swgg-itunes-search/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-itunes-search/build/coverage.html/index.html) [![snyk.io vulnerabilities](https://snyk.io/test/github/kaizhu256/node-swgg-itunes-search/badge.svg)](https://snyk.io/test/github/kaizhu256/node-swgg-itunes-search)
-
-[![NPM](https://nodei.co/npm/swgg-itunes-search.png?downloads=true)](https://www.npmjs.com/package/swgg-itunes-search)
+[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-itunes-search.svg)](https://travis-ci.org/kaizhu256/node-swgg-itunes-search) [![coverage](https://kaizhu256.github.io/node-swgg-itunes-search/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-itunes-search/build/coverage.html/index.html)
 
 [![build commit status](https://kaizhu256.github.io/node-swgg-itunes-search/build/build.badge.svg)](https://travis-ci.org/kaizhu256/node-swgg-itunes-search)
 
@@ -58,7 +56,7 @@ this zero-dependency package will provide a swagger-client for itunes-search's w
 - none
 
 #### changelog for v2018.1.16
-- npm publish 2018.1.16
+- npm publish 2018.6.21
 - update build
 - none
 
@@ -105,7 +103,7 @@ this script will run a web-demo of swgg-itunes-search
 instruction
     1. save this script as example.js
     2. run the shell command:
-        $ npm install swgg-itunes-search && PORT=8081 node example.js
+        $ npm install kaizhu256/node-swgg-itunes-search#alpha && PORT=8081 node example.js
     3. open a browser to http://127.0.0.1:8081 and play with the web-demo
     4. edit this script to suit your needs
 */
@@ -113,10 +111,11 @@ instruction
 
 
 /* istanbul instrument in package swgg_itunes_search */
+/* jslint-utility2 */
 /*jslint
     bitwise: true,
     browser: true,
-    maxerr: 8,
+    maxerr: 4,
     maxlen: 100,
     node: true,
     nomen: true,
@@ -134,24 +133,20 @@ instruction
         // init local
         local = {};
         // init modeJs
-        local.modeJs = (function () {
+        (function () {
             try {
-                return typeof navigator.userAgent === 'string' &&
-                    typeof document.querySelector('body') === 'object' &&
-                    typeof XMLHttpRequest.prototype.open === 'function' &&
-                    'browser';
-            } catch (errorCaughtBrowser) {
-                return module.exports &&
-                    typeof process.versions.node === 'string' &&
+                local.modeJs = typeof process.versions.node === 'string' &&
                     typeof require('http').createServer === 'function' &&
                     'node';
+            } catch (ignore) {
             }
+            local.modeJs = local.modeJs || 'browser';
         }());
         // init global
         local.global = local.modeJs === 'browser'
             ? window
             : global;
-        // init utility2_rollup
+        // re-init local
         local = local.global.utility2_rollup || (local.modeJs === 'browser'
             ? local.global.utility2_swgg_itunes_search
             : require('swgg-itunes-search'));
@@ -177,15 +172,43 @@ instruction
         // init exports
         module.exports = local;
         // require builtins
-        Object.keys(process.binding('natives')).forEach(function (key) {
-            if (!local[key] && !(/\/|^_|^sys$/).test(key)) {
-                local[key] = require(key);
-            }
-        });
+        // local.assert = require('assert');
+        local.buffer = require('buffer');
+        local.child_process = require('child_process');
+        local.cluster = require('cluster');
+        local.console = require('console');
+        local.constants = require('constants');
+        local.crypto = require('crypto');
+        local.dgram = require('dgram');
+        local.dns = require('dns');
+        local.domain = require('domain');
+        local.events = require('events');
+        local.fs = require('fs');
+        local.http = require('http');
+        local.https = require('https');
+        local.module = require('module');
+        local.net = require('net');
+        local.os = require('os');
+        local.path = require('path');
+        local.process = require('process');
+        local.punycode = require('punycode');
+        local.querystring = require('querystring');
+        local.readline = require('readline');
+        local.repl = require('repl');
+        local.stream = require('stream');
+        local.string_decoder = require('string_decoder');
+        local.timers = require('timers');
+        local.tls = require('tls');
+        local.tty = require('tty');
+        local.url = require('url');
+        local.util = require('util');
+        local.v8 = require('v8');
+        local.vm = require('vm');
+        local.zlib = require('zlib');
+        /* validateLineSortedReset */
         // init assets
         local.assetsDict = local.assetsDict || {};
         [
-            'assets.index.css',
             'assets.index.template.html',
             'assets.swgg.swagger.json',
             'assets.swgg.swagger.server.json'
@@ -199,12 +222,19 @@ instruction
                 );
             }
         });
+        /* validateLineSortedReset */
+        /* jslint-ignore-begin */
+        // bug-workaround - long $npm_package_buildCustomOrg
+        local.assetsDict['/assets.swgg_itunes_search.js'] =
+            local.assetsDict['/assets.swgg_itunes_search.js'] ||
+            local.fs.readFileSync(local.__dirname + '/lib.swgg_itunes_search.js', 'utf8'
+        ).replace((/^#!\//), '// ');
+        /* jslint-ignore-end */
+        /* validateLineSortedReset */
         local.assetsDict['/'] =
             local.assetsDict['/assets.example.html'] =
             local.assetsDict['/assets.index.template.html']
             .replace((/\{\{env\.(\w+?)\}\}/g), function (match0, match1) {
-                // jslint-hack
-                String(match0);
                 switch (match1) {
                 case 'npm_package_description':
                     return 'the greatest app in the world!';
@@ -225,15 +255,6 @@ instruction
         local.assetsDict['/assets.example.js'] =
             local.assetsDict['/assets.example.js'] ||
             local.fs.readFileSync(__filename, 'utf8');
-        // bug-workaround - long $npm_package_buildCustomOrg
-        /* jslint-ignore-begin */
-        local.assetsDict['/assets.swgg_itunes_search.js'] =
-            local.assetsDict['/assets.swgg_itunes_search.js'] ||
-            local.fs.readFileSync(
-                local.__dirname + '/lib.swgg_itunes_search.js',
-                'utf8'
-            ).replace((/^#!/), '//');
-        /* jslint-ignore-end */
         local.assetsDict['/favicon.ico'] = local.assetsDict['/favicon.ico'] || '';
         // if $npm_config_timeout_exit exists,
         // then exit this process after $npm_config_timeout_exit ms
@@ -287,6 +308,8 @@ instruction
 1. [https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-itunes-search%252Fbuild%252Fapp.png](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-itunes-search%252Fbuild%252Fapp.png)
 [![screenshot](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-itunes-search%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.deployGithubTest.browser.%252Fnode-swgg-itunes-search%252Fbuild%252Fapp.png)
 
+
+
 1. [https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.npmTest.browser.%252F.png](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.npmTest.browser.%252F.png)
 [![screenshot](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.npmTest.browser.%252F.png)](https://kaizhu256.github.io/node-swgg-itunes-search/build/screenshot.npmTest.browser.%252F.png)
 
@@ -319,6 +342,7 @@ instruction
     "license": "MIT",
     "main": "lib.swgg_itunes_search.js",
     "name": "swgg-itunes-search",
+    "nameAliasPublish": "",
     "nameLib": "swgg_itunes_search",
     "nameOriginal": "swgg-itunes-search",
     "os": [
@@ -330,14 +354,15 @@ instruction
         "url": "https://github.com/kaizhu256/node-swgg-itunes-search.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh",
-        "env": "env",
-        "heroku-postbuild": "npm uninstall utility2 2>/dev/null; npm install kaizhu256/node-utility2#alpha && utility2 shDeployHeroku",
-        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
-        "start": "PORT=${PORT:-8080} utility2 start test.js",
-        "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
     },
-    "version": "2018.1.16"
+    "version": "2018.6.21"
 }
 ```
 
@@ -355,19 +380,20 @@ instruction
 
 # this shell script will run the build for this package
 
-shBuildCiAfter() {(set -e
+shBuildCiAfter () {(set -e
+    # shDeployCustom
     shDeployGithub
     # shDeployHeroku
     shReadmeTest example.sh
 )}
 
-shBuildCiBefore() {(set -e
-    shNpmTestPublished
+shBuildCiBefore () {(set -e
+    # shNpmTestPublished
     shReadmeTest example.js
 )}
 
 # run shBuildCi
-eval $(utility2 source)
+eval "$(utility2 source)"
 shBuildCi
 ```
 

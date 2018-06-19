@@ -17,6 +17,7 @@
     "license": "MIT",
     "main": "lib.swgg_itunes_search.js",
     "name": "swgg-itunes-search",
+    "nameAliasPublish": "",
     "nameLib": "swgg_itunes_search",
     "nameOriginal": "swgg-itunes-search",
     "os": [
@@ -28,12 +29,13 @@
         "url": "https://github.com/kaizhu256/node-swgg-itunes-search.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh",
-        "env": "env",
-        "heroku-postbuild": "npm uninstall utility2 2>/dev/null; npm install kaizhu256/node-utility2#alpha && utility2 shDeployHeroku",
-        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
-        "start": "PORT=${PORT:-8080} utility2 start test.js",
-        "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
     },
-    "version": "2018.1.16"
+    "version": "2018.6.21"
 }
