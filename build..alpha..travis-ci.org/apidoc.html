@@ -27,7 +27,6 @@
     background: #eef;
     border: 1px solid;
     color: #777;
-    overflow-wrap: break-word;
     padding: 5px;
     white-space: pre-wrap;
 }
@@ -52,7 +51,7 @@
 
         href="https://github.com/kaizhu256/node-swgg-itunes-search"
 
-    >swgg-itunes-search (2018.1.16)</a>
+    >swgg-itunes-search (v2018.1.16)</a>
 </h1>
 <h4>this zero-dependency package will provide a swagger-client for itunes-search's web-apis, with a working web-demo</h4>
 <div class="apidocSectionDiv"><a
@@ -76,7 +75,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgAlbumId.required_20GET.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgAlbumId.required_20GET.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -85,7 +84,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgArtistId.required_20GET.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgArtistId.required_20GET.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -94,7 +93,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgVideoId.required_20GET.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgVideoId.required_20GET.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -103,7 +102,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23id.required_20GET.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23id.required_20GET.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -112,7 +111,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23isbn.required_20GET.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23isbn.required_20GET.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -121,7 +120,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23upc.required_20GET.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23upc.required_20GET.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -130,7 +129,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsearch_20GET.ajax">
             function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsearch_20GET.ajax
-            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            <span class="apidocSignatureSpan">(options, onError)</span>
             </a>
 
         </li>
@@ -153,33 +152,33 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgAlbumId.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23amgAlbumId.required_20GET.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgAlbumId.required_20GET.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgAlbumId.required_20GET.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgAlbumId.required_20GET.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call &quot;GET /lookup#amgAlbumId.required&quot;
+ * this function will make the api-call &#x22;GET /lookup#amgAlbumId.required&#x22;
  * example usage:
-    swgg.apiDict[&quot;operationId._2Flookup_23amgAlbumId.required_20GET&quot;].ajax({
-        &quot;amgAlbumId&quot;: [
-            &quot;15175&quot;,
-            &quot;15176&quot;,
-            &quot;15177&quot;,
-            &quot;15178&quot;,
-            &quot;15183&quot;,
-            &quot;15184&quot;,
-            &quot;15187&quot;,
-            &quot;1519&quot;,
-            &quot;15191&quot;,
-            &quot;15195&quot;,
-            &quot;15197&quot;,
-            &quot;15198&quot;
+    swgg.apiDict[&#x22;operationId._2Flookup_23amgAlbumId.required_20GET&#x22;].ajax({
+        &#x22;amgAlbumId&#x22;: [
+            &#x22;15175&#x22;,
+            &#x22;15176&#x22;,
+            &#x22;15177&#x22;,
+            &#x22;15178&#x22;,
+            &#x22;15183&#x22;,
+            &#x22;15184&#x22;,
+            &#x22;15187&#x22;,
+            &#x22;1519&#x22;,
+            &#x22;15191&#x22;,
+            &#x22;15195&#x22;,
+            &#x22;15197&#x22;,
+            &#x22;15198&#x22;
         ],
-        &quot;entity&quot;: &quot;album&quot;,
-        &quot;callback&quot;: &quot;wsSearchCB&quot;,
-        &quot;limit&quot;: 0,
-        &quot;sort&quot;: &quot;recent&quot;
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
     }, function (error, data) {
         if (error) {
             console.error(error);
@@ -188,7 +187,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -198,23 +197,23 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgArtistId.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23amgArtistId.required_20GET.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgArtistId.required_20GET.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgArtistId.required_20GET.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgArtistId.required_20GET.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call &quot;GET /lookup#amgArtistId.required&quot;
+ * this function will make the api-call &#x22;GET /lookup#amgArtistId.required&#x22;
  * example usage:
-    swgg.apiDict[&quot;operationId._2Flookup_23amgArtistId.required_20GET&quot;].ajax({
-        &quot;amgArtistId&quot;: [
-            &quot;468749&quot;,
-            &quot;5723&quot;
+    swgg.apiDict[&#x22;operationId._2Flookup_23amgArtistId.required_20GET&#x22;].ajax({
+        &#x22;amgArtistId&#x22;: [
+            &#x22;468749&#x22;,
+            &#x22;5723&#x22;
         ],
-        &quot;entity&quot;: &quot;album&quot;,
-        &quot;callback&quot;: &quot;wsSearchCB&quot;,
-        &quot;limit&quot;: 0,
-        &quot;sort&quot;: &quot;recent&quot;
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
     }, function (error, data) {
         if (error) {
             console.error(error);
@@ -223,7 +222,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -233,22 +232,22 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgVideoId.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23amgVideoId.required_20GET.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgVideoId.required_20GET.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgVideoId.required_20GET.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgVideoId.required_20GET.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call &quot;GET /lookup#amgVideoId.required&quot;
+ * this function will make the api-call &#x22;GET /lookup#amgVideoId.required&#x22;
  * example usage:
-    swgg.apiDict[&quot;operationId._2Flookup_23amgVideoId.required_20GET&quot;].ajax({
-        &quot;amgVideoId&quot;: [
-            &quot;17120&quot;
+    swgg.apiDict[&#x22;operationId._2Flookup_23amgVideoId.required_20GET&#x22;].ajax({
+        &#x22;amgVideoId&#x22;: [
+            &#x22;17120&#x22;
         ],
-        &quot;entity&quot;: &quot;album&quot;,
-        &quot;callback&quot;: &quot;wsSearchCB&quot;,
-        &quot;limit&quot;: 0,
-        &quot;sort&quot;: &quot;recent&quot;
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
     }, function (error, data) {
         if (error) {
             console.error(error);
@@ -257,7 +256,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -267,23 +266,23 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23id.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23id.required_20GET.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23id.required_20GET.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23id.required_20GET.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23id.required_20GET.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call &quot;GET /lookup#id.required&quot;
+ * this function will make the api-call &#x22;GET /lookup#id.required&#x22;
  * example usage:
-    swgg.apiDict[&quot;operationId._2Flookup_23id.required_20GET&quot;].ajax({
-        &quot;id&quot;: [
-            &quot;909253&quot;,
-            &quot;284910350&quot;
+    swgg.apiDict[&#x22;operationId._2Flookup_23id.required_20GET&#x22;].ajax({
+        &#x22;id&#x22;: [
+            &#x22;909253&#x22;,
+            &#x22;284910350&#x22;
         ],
-        &quot;entity&quot;: &quot;album&quot;,
-        &quot;callback&quot;: &quot;wsSearchCB&quot;,
-        &quot;limit&quot;: 0,
-        &quot;sort&quot;: &quot;recent&quot;
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
     }, function (error, data) {
         if (error) {
             console.error(error);
@@ -292,7 +291,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -302,22 +301,22 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23isbn.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23isbn.required_20GET.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23isbn.required_20GET.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23isbn.required_20GET.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23isbn.required_20GET.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call &quot;GET /lookup#isbn.required&quot;
+ * this function will make the api-call &#x22;GET /lookup#isbn.required&#x22;
  * example usage:
-    swgg.apiDict[&quot;operationId._2Flookup_23isbn.required_20GET&quot;].ajax({
-        &quot;isbn&quot;: [
-            &quot;9780316069359&quot;
+    swgg.apiDict[&#x22;operationId._2Flookup_23isbn.required_20GET&#x22;].ajax({
+        &#x22;isbn&#x22;: [
+            &#x22;9780316069359&#x22;
         ],
-        &quot;entity&quot;: &quot;album&quot;,
-        &quot;callback&quot;: &quot;wsSearchCB&quot;,
-        &quot;limit&quot;: 0,
-        &quot;sort&quot;: &quot;recent&quot;
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
     }, function (error, data) {
         if (error) {
             console.error(error);
@@ -326,7 +325,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -336,22 +335,22 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23upc.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23upc.required_20GET.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23upc.required_20GET.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23upc.required_20GET.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23upc.required_20GET.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call &quot;GET /lookup#upc.required&quot;
+ * this function will make the api-call &#x22;GET /lookup#upc.required&#x22;
  * example usage:
-    swgg.apiDict[&quot;operationId._2Flookup_23upc.required_20GET&quot;].ajax({
-        &quot;upc&quot;: [
-            &quot;720642462928&quot;
+    swgg.apiDict[&#x22;operationId._2Flookup_23upc.required_20GET&#x22;].ajax({
+        &#x22;upc&#x22;: [
+            &#x22;720642462928&#x22;
         ],
-        &quot;entity&quot;: &quot;album&quot;,
-        &quot;callback&quot;: &quot;wsSearchCB&quot;,
-        &quot;limit&quot;: 0,
-        &quot;sort&quot;: &quot;recent&quot;
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
     }, function (error, data) {
         if (error) {
             console.error(error);
@@ -360,7 +359,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -370,24 +369,24 @@
     <h2>
         <a href="#apidoc.element.swgg.apiDict.operationId._2Fsearch_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsearch_20GET.ajax">
         function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsearch_20GET.ajax
-        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        <span class="apidocSignatureSpan">(options, onError)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsearch_20GET.ajax = function (swaggerJson, onError) {
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsearch_20GET.ajax = function (options, onError) {
 <span class="apidocCodeCommentSpan">/*
- * this function will run the api-call &quot;GET /search&quot;
+ * this function will make the api-call &#x22;GET /search&#x22;
  * example usage:
-    swgg.apiDict[&quot;operationId._2Fsearch_20GET&quot;].ajax({
-        &quot;term&quot;: &quot;jack+johnson&quot;,
-        &quot;country&quot;: &quot;US&quot;,
-        &quot;entity&quot;: &quot;album&quot;,
-        &quot;attribute&quot;: &quot;actorTerm&quot;,
-        &quot;callback&quot;: &quot;wsSearchCB&quot;,
-        &quot;limit&quot;: 0,
-        &quot;lang&quot;: &quot;en_us&quot;,
-        &quot;version&quot;: 2,
-        &quot;explicit&quot;: &quot;Yes&quot;
+    swgg.apiDict[&#x22;operationId._2Fsearch_20GET&#x22;].ajax({
+        &#x22;term&#x22;: &#x22;jack+johnson&#x22;,
+        &#x22;country&#x22;: &#x22;US&#x22;,
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;attribute&#x22;: &#x22;actorTerm&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;lang&#x22;: &#x22;en_us&#x22;,
+        &#x22;version&#x22;: 2,
+        &#x22;explicit&#x22;: &#x22;Yes&#x22;
     }, function (error, data) {
         if (error) {
             console.error(error);
@@ -396,7 +395,7 @@
         console.log(data.responseJson || data.responseText);
     });
  */
-</span>    return local.apiAjax(self, swaggerJson, onError);
+</span>    return local.apiAjax(self, options, onError);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
