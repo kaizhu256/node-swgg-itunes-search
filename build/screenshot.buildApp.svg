@@ -1,9 +1,9 @@
-<svg height="1118" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1118" fill="#555" width="720"></rect>
+<svg height="654" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="654" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T17:14:53.068Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T17:19:37.981Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-itunes-search</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,115 +15,63 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 48841</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 37817</tspan>
 
-<tspan x="10" y="170">SyntaxError: Unexpected end of JSON input</tspan>
+<tspan x="10" y="170">&gt; server listening on http-port 51437</tspan>
 
-<tspan x="10" y="186">    at Object.parse (native)</tspan>
+<tspan x="10" y="186">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
-<tspan x="10" y="202">    at /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.utility2.rollup.js:21198:61</tspan>
+<tspan x="10" y="202"></tspan>
 
-<tspan x="10" y="218">    at Object.local.tryCatchOnError (/home/travis/build/kaizhu256/node-swgg-itunes-search/assets\</tspan>
-<tspan x="10" y="234">.utility2.rollup.js:22665:26)</tspan>
+<tspan x="10" y="218">buildApp - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp\</tspan>
+<tspan x="10" y="234">/build/test-report.json</tspan>
 
-<tspan x="10" y="250">    at /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.utility2.rollup.js:21195:31</tspan>
+<tspan x="10" y="250"></tspan>
 
-<tspan x="10" y="266">    at tryToString (fs.js:457:3)</tspan>
+<tspan x="10" y="266">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="282">    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)</tspan>
+<tspan x="10" y="282">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T17:19:14.809Z</tspan>
 
-<tspan x="10" y="298">jslint /home/travis/build/kaizhu256/node-swgg-itunes-search/lib.swgg_itunes_search.js</tspan>
+<tspan x="10" y="298">|   29337 ms            0 failed        1 passed      |</tspan>
 
-<tspan x="10" y="314"> #1 trailing whitespace</tspan>
+<tspan x="10" y="314">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="330">    "            local.global.utility2_rollup_old || require('./assets.utility2.rollup.js') " //\</tspan>
-<tspan x="10" y="346"> line 62, col 87</tspan>
+<tspan x="10" y="330">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T17:18:53.586Z</tspan>
 
-<tspan x="10" y="362"> #2 Unexpected character '(space)'.</tspan>
+<tspan x="10" y="346">|   17475 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="378">    local.global.utility2_rollup_old || require('./assets.utility2.rollup.js') // line 62, col 8\</tspan>
-<tspan x="10" y="394">7</tspan>
+<tspan x="10" y="362">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="410"> #3 Expected ';' and instead saw '(end)'.</tspan>
+<tspan x="10" y="378">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
+<tspan x="10" y="394">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
+<tspan x="10" y="410">018-06-19T17:17:46.792Z</tspan>
 
-<tspan x="10" y="426">    local.global.utility2_rollup_old || require('./assets.utility2.rollup.js') // line 62, col 8\</tspan>
-<tspan x="10" y="442">7</tspan>
+<tspan x="10" y="426">|      11 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="458"> #4 Expected '(end)' at column 5, not column 86.</tspan>
+<tspan x="10" y="442">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="474">     // line 63, col 86</tspan>
+<tspan x="10" y="458">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T17:17:44.475Z</tspan>
 
-<tspan x="10" y="490"> #5 Expected '(end)' at column 5, not column 86.</tspan>
+<tspan x="10" y="474">|   16650 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="506">     // line 64, col 86</tspan>
+<tspan x="10" y="490">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="522"> #6 Too many errors. (103% scanned).</tspan>
+<tspan x="10" y="506"></tspan>
 
-<tspan x="10" y="538">    undefined // line 64, col 86</tspan>
+<tspan x="10" y="522">created test-report file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/test-rep\</tspan>
+<tspan x="10" y="538">ort.html</tspan>
 
-<tspan x="10" y="554">&gt; server listening on http-port 59369</tspan>
+<tspan x="10" y="554"></tspan>
 
-<tspan x="10" y="570">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="570"></tspan>
 
-<tspan x="10" y="586"></tspan>
+<tspan x="10" y="586">buildApp - 0 failed tests</tspan>
 
-<tspan x="10" y="602">buildApp - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp\</tspan>
-<tspan x="10" y="618">/build/test-report.json</tspan>
+<tspan x="10" y="602"></tspan>
 
-<tspan x="10" y="634"></tspan>
+<tspan x="10" y="618"></tspan>
 
-<tspan x="10" y="650">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="666">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T17:14:27.367Z</tspan>
-
-<tspan x="10" y="682">|   31511 ms            0 failed        1 passed      |</tspan>
-
-<tspan x="10" y="698">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="714">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
-<tspan x="10" y="730">ebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-19\</tspan>
-<tspan x="10" y="746">T17:14:09.484Z</tspan>
-
-<tspan x="10" y="762">|      11 ms            0 failed        8 passed      |</tspan>
-
-<tspan x="10" y="778">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="794">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T17:14:07.177Z</tspan>
-
-<tspan x="10" y="810">|   16669 ms            0 failed        8 passed      |</tspan>
-
-<tspan x="10" y="826">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="842">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
-<tspan x="10" y="858">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
-<tspan x="10" y="874">018-06-19T17:12:59.414Z</tspan>
-
-<tspan x="10" y="890">|      15 ms            0 failed        8 passed      |</tspan>
-
-<tspan x="10" y="906">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="922">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T17:12:56.797Z</tspan>
-
-<tspan x="10" y="938">|   16985 ms            0 failed        8 passed      |</tspan>
-
-<tspan x="10" y="954">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="970"></tspan>
-
-<tspan x="10" y="986">created test-report file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/test-rep\</tspan>
-<tspan x="10" y="1002">ort.html</tspan>
-
-<tspan x="10" y="1018"></tspan>
-
-<tspan x="10" y="1034"></tspan>
-
-<tspan x="10" y="1050">buildApp - 0 failed tests</tspan>
-
-<tspan x="10" y="1066"></tspan>
-
-<tspan x="10" y="1082"></tspan>
-
-<tspan x="10" y="1098">[MODE_BUILD=buildApp] - 2018-06-19T17:15:00.727Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="634">[MODE_BUILD=buildApp] - 2018-06-19T17:19:45.731Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
