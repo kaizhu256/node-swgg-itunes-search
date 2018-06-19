@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-19T17:56:00.116Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-19T18:01:21.686Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
 <tspan x="10" y="58">swgg-itunes-search</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -20,7 +20,7 @@
 
 <tspan x="10" y="186">override assets /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="202">&gt; server listening on http-port 55208</tspan>
+<tspan x="10" y="202">&gt; server listening on http-port 39279</tspan>
 
 <tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package.json</tspan>
 
@@ -69,59 +69,59 @@
 <tspan x="10" y="586"></tspan>
 
 <tspan x="10" y="602">browserTest - created electron entry-page /home/travis/build/kaizhu256/node-swgg-itunes-search/t\</tspan>
-<tspan x="10" y="618">mp/electron.16419306acc0.08c2b79d4c11f.html</tspan>
+<tspan x="10" y="618">mp/electron.164193552d00.bbbc4ecf5341b.html</tspan>
 
 <tspan x="10" y="634"></tspan>
 
-<tspan x="10" y="650">(node:7826) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
-<tspan x="10" y="666">e.</tspan>
+<tspan x="10" y="650">(node:10496) DeprecationWarning: _linklist module is deprecated. Please use a userland alternati\</tspan>
+<tspan x="10" y="666">ve.</tspan>
 
-<tspan x="10" y="682">(node:7826) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="682">(node:10496) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
 <tspan x="10" y="698">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
 <tspan x="10" y="714">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="730">[7893:0619/175601.501081:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="746">ted</tspan>
+<tspan x="10" y="730">[10563:0619/180122.960684:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="746">cted</tspan>
 
-<tspan x="10" y="762">[7893:0619/175601.501179:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="778">ted</tspan>
+<tspan x="10" y="762">[10563:0619/180122.960759:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="778">cted</tspan>
 
-<tspan x="10" y="794">[7926:0619/175601.634052:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
-<tspan x="10" y="810">hreads in process gpu-process. </tspan>
+<tspan x="10" y="794">[10592:0619/180123.030300:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
+<tspan x="10" y="810">threads in process gpu-process. </tspan>
 
-<tspan x="10" y="826">[7893:0619/175601.650409:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="842">l.</tspan>
+<tspan x="10" y="826">[10563:0619/180123.055167:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="842">el.</tspan>
 
-<tspan x="10" y="858">[7893:0619/175601.659600:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="874">l.</tspan>
+<tspan x="10" y="858">[10563:0619/180123.058670:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="874">el.</tspan>
 
-<tspan x="10" y="890">[7893:0619/175601.665570:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="906">l.</tspan>
+<tspan x="10" y="890">[10563:0619/180123.062668:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="906">el.</tspan>
 
-<tspan x="10" y="922">[7893:0619/175601.670736:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="938">l.</tspan>
+<tspan x="10" y="922">[10563:0619/180123.067175:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="938">el.</tspan>
 
-<tspan x="10" y="954">[7893:0619/175601.675643:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="970">l.</tspan>
+<tspan x="10" y="954">[10563:0619/180123.069838:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="970">el.</tspan>
 
-<tspan x="10" y="986">&gt; server listening on http-port 34133</tspan>
+<tspan x="10" y="986"></tspan>
 
-<tspan x="10" y="1002"></tspan>
+<tspan x="10" y="1002">browserTest - opened http://127.0.0.1:39279/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
-<tspan x="10" y="1018">browserTest - opened http://127.0.0.1:55208/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1018"></tspan>
 
-<tspan x="10" y="1034"></tspan>
+<tspan x="10" y="1034">&gt; server listening on http-port 52836</tspan>
 
-<tspan x="10" y="1050">[7893:0619/175602.333502:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:55208/asset\</tspan>
-<tspan x="10" y="1066">s.swgg.swagger.json</tspan>
+<tspan x="10" y="1050">[10563:0619/180123.652522:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:39279/asse\</tspan>
+<tspan x="10" y="1066">ts.swgg.swagger.json</tspan>
 
 <tspan x="10" y="1082">    "..."</tspan>
 
-<tspan x="10" y="1098">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:55208/assets.swgg.swagger.json", so\</tspan>
-<tspan x="10" y="1114">urce: file:///home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/electron.16419306acc0.08c2\</tspan>
-<tspan x="10" y="1130">b79d4c11f.html (266)</tspan>
+<tspan x="10" y="1098">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:39279/assets.swgg.swagger.json", so\</tspan>
+<tspan x="10" y="1114">urce: file:///home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/electron.164193552d00.bbbc\</tspan>
+<tspan x="10" y="1130">4ecf5341b.html (266)</tspan>
 
 <tspan x="10" y="1146">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
@@ -137,7 +137,7 @@
 
 <tspan x="10" y="1258"></tspan>
 
-<tspan x="10" y="1274">browserTest - exit-code 0 - http://127.0.0.1:55208/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1274">browserTest - exit-code 0 - http://127.0.0.1:39279/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
 <tspan x="10" y="1290"></tspan>
 
@@ -193,7 +193,7 @@
 
 <tspan x="10" y="1738">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T17:51:57.825Z</tspan>
 
-<tspan x="10" y="1754">|  259864 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1754">|  581226 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="1770">-------------------------------------------------------</tspan>
 
@@ -240,7 +240,7 @@
 
 <tspan x="10" y="2154"></tspan>
 
-<tspan x="10" y="2170">[MODE_BUILD=npmTest] - 2018-06-19T17:56:19.520Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2170">[MODE_BUILD=npmTest] - 2018-06-19T18:01:41.067Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-19T17:56:20.935Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-19T18:01:42.698Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="58">ode-swgg-itunes-search</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 41689</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 59387</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package.json</tspan>
 
@@ -51,10 +51,10 @@
 
 <tspan x="10" y="442">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="458">(node:8122) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
-<tspan x="10" y="474">e.</tspan>
+<tspan x="10" y="458">(node:10795) DeprecationWarning: _linklist module is deprecated. Please use a userland alternati\</tspan>
+<tspan x="10" y="474">ve.</tspan>
 
-<tspan x="10" y="490">(node:8122) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="490">(node:10795) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
 <tspan x="10" y="506"></tspan>
 
@@ -67,7 +67,7 @@
 
 <tspan x="10" y="586">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T17:51:57.825Z</tspan>
 
-<tspan x="10" y="602">|  263230 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="602">|  585222 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="618">-------------------------------------------------------</tspan>
 
@@ -114,7 +114,7 @@
 
 <tspan x="10" y="1002"></tspan>
 
-<tspan x="10" y="1018">[MODE_BUILD=buildApidoc] - 2018-06-19T17:56:22.883Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1018">[MODE_BUILD=buildApidoc] - 2018-06-19T18:01:44.867Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
