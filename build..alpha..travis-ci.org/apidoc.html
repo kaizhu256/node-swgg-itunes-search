@@ -1,0 +1,411 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/kaizhu256/node-swgg-itunes-search"
+
+    >swgg-itunes-search (v2018.6.20)</a>
+</h1>
+<h4>this zero-dependency package will provide a swagger-client for itunes-search's web-apis, with a working web-demo</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg-itunes-search">module swgg-itunes-search</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">swgg-itunes-search.</span>timeExit</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg.apiDict">module swgg.apiDict</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgAlbumId.required_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgAlbumId.required_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgArtistId.required_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgArtistId.required_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgVideoId.required_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgVideoId.required_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23id.required_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23id.required_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23isbn.required_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23isbn.required_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23upc.required_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23upc.required_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fsearch_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsearch_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg-itunes-search" id="apidoc.module.swgg-itunes-search">module swgg-itunes-search</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg.apiDict" id="apidoc.module.swgg.apiDict">module swgg.apiDict</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgAlbumId.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23amgAlbumId.required_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgAlbumId.required_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgAlbumId.required_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /lookup#amgAlbumId.required&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flookup_23amgAlbumId.required_20GET&#x22;].ajax({
+        &#x22;amgAlbumId&#x22;: [
+            &#x22;15175&#x22;,
+            &#x22;15176&#x22;,
+            &#x22;15177&#x22;,
+            &#x22;15178&#x22;,
+            &#x22;15183&#x22;,
+            &#x22;15184&#x22;,
+            &#x22;15187&#x22;,
+            &#x22;1519&#x22;,
+            &#x22;15191&#x22;,
+            &#x22;15195&#x22;,
+            &#x22;15197&#x22;,
+            &#x22;15198&#x22;
+        ],
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgArtistId.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23amgArtistId.required_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgArtistId.required_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgArtistId.required_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /lookup#amgArtistId.required&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flookup_23amgArtistId.required_20GET&#x22;].ajax({
+        &#x22;amgArtistId&#x22;: [
+            &#x22;468749&#x22;,
+            &#x22;5723&#x22;
+        ],
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23amgVideoId.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23amgVideoId.required_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23amgVideoId.required_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23amgVideoId.required_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /lookup#amgVideoId.required&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flookup_23amgVideoId.required_20GET&#x22;].ajax({
+        &#x22;amgVideoId&#x22;: [
+            &#x22;17120&#x22;
+        ],
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23id.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23id.required_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23id.required_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23id.required_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /lookup#id.required&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flookup_23id.required_20GET&#x22;].ajax({
+        &#x22;id&#x22;: [
+            &#x22;909253&#x22;,
+            &#x22;284910350&#x22;
+        ],
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23isbn.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23isbn.required_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23isbn.required_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23isbn.required_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /lookup#isbn.required&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flookup_23isbn.required_20GET&#x22;].ajax({
+        &#x22;isbn&#x22;: [
+            &#x22;9780316069359&#x22;
+        ],
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flookup_23upc.required_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flookup_23upc.required_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flookup_23upc.required_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flookup_23upc.required_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /lookup#upc.required&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flookup_23upc.required_20GET&#x22;].ajax({
+        &#x22;upc&#x22;: [
+            &#x22;720642462928&#x22;
+        ],
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;sort&#x22;: &#x22;recent&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fsearch_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fsearch_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fsearch_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fsearch_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /search&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Fsearch_20GET&#x22;].ajax({
+        &#x22;term&#x22;: &#x22;jack+johnson&#x22;,
+        &#x22;country&#x22;: &#x22;US&#x22;,
+        &#x22;entity&#x22;: &#x22;album&#x22;,
+        &#x22;attribute&#x22;: &#x22;actorTerm&#x22;,
+        &#x22;callback&#x22;: &#x22;wsSearchCB&#x22;,
+        &#x22;limit&#x22;: 0,
+        &#x22;lang&#x22;: &#x22;en_us&#x22;,
+        &#x22;version&#x22;: 2,
+        &#x22;explicit&#x22;: &#x22;Yes&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
