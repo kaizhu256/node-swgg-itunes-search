@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T17:52:23.696Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-19T17:56:44.097Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-itunes-search</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,9 +15,9 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 44604</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 32844</tspan>
 
-<tspan x="10" y="170">&gt; server listening on http-port 57877</tspan>
+<tspan x="10" y="170">&gt; server listening on http-port 38894</tspan>
 
 <tspan x="10" y="186">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
@@ -32,7 +32,7 @@
 
 <tspan x="10" y="282">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T17:51:57.825Z</tspan>
 
-<tspan x="10" y="298">|   31705 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="298">|  292097 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="314">-------------------------------------------------------</tspan>
 
@@ -79,7 +79,7 @@
 
 <tspan x="10" y="698"></tspan>
 
-<tspan x="10" y="714">[MODE_BUILD=buildApp] - 2018-06-19T17:52:31.381Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="714">[MODE_BUILD=buildApp] - 2018-06-19T17:56:51.746Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

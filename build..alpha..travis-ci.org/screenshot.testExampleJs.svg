@@ -1,18 +1,18 @@
-<svg height="254" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="254" fill="#555" width="720"></rect>
+<svg height="270" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="270" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">&gt; swgg-itunes-search@2018.6.20 postinstall /tmp/app/node_modules/swgg-itunes-search</tspan>
+<tspan x="10" y="42">&gt; swgg-itunes-search@2018.6.21 postinstall /tmp/app/node_modules/swgg-itunes-search</tspan>
 
-<tspan x="10" y="58">&gt; [ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall</tspan>
+<tspan x="10" y="58">&gt; ./npm_scripts.sh</tspan>
 
 <tspan x="10" y="74"></tspan>
 
 <tspan x="10" y="90">/tmp/app</tspan>
 
-<tspan x="10" y="106">└── swgg-itunes-search@2018.6.20  (git://github.com/kaizhu256/node-swgg-itunes-search.git#8fa4e4\</tspan>
-<tspan x="10" y="122">d11fd79e3426d8a5f5b2f89cc9fb313cc5)</tspan>
+<tspan x="10" y="106">└── swgg-itunes-search@2018.6.21  (git://github.com/kaizhu256/node-swgg-itunes-search.git#359f80\</tspan>
+<tspan x="10" y="122">757b5c26cd914692d928bf8e2d61361269)</tspan>
 
 <tspan x="10" y="138"></tspan>
 
@@ -26,7 +26,9 @@
 
 <tspan x="10" y="218">npm WARN app No license field.</tspan>
 
-<tspan x="10" y="234">server starting on port 8081</tspan>
+<tspan x="10" y="234">override assets /tmp/app/assets.swgg.swagger.json</tspan>
+
+<tspan x="10" y="250">server starting on port 8081</tspan>
 
 </text>
 </svg>

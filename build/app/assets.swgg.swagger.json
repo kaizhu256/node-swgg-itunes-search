@@ -7,7 +7,8 @@
     "info": {
         "description": "this zero-dependency package will provide a swagger-client for itunes-search's web-apis, with a working web-demo",
         "title": "swgg-itunes-search",
-        "version": "2018.1.16",
+        "version": "2018.6.21",
+        "x-swgg-description": "this zero-dependency package will provide a swagger-client for itunes-search's web-apis, with a working web-demo",
         "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-itunes-search/build..beta..travis-ci.org/app/assets.app.js",
         "x-swgg-homepage": "https://github.com/kaizhu256/node-swgg-itunes-search"
     },
@@ -475,5 +476,6 @@
             "x-swgg-tags0": "itunes-search"
         }
     ],
+    "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-itunes-search/build..beta..travis-ci.org/app/assets.app.js",
     "x-swgg-operationIdFromPath": true
 }
