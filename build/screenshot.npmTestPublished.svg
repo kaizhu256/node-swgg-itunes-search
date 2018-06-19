@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-06-19T16:24:10.732Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-06-19T16:30:14.775Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
 <tspan x="10" y="58">e_modules/swgg-itunes-search</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 49869</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 60699</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-itunes-search/package.json</tspan>
 
@@ -60,82 +60,82 @@
 <tspan x="10" y="506"></tspan>
 
 <tspan x="10" y="522">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-itunes-search/\</tspan>
-<tspan x="10" y="538">tmp/electron.16418dc5d520.c7064c2e16a3b.html</tspan>
+<tspan x="10" y="538">tmp/electron.16418e1ec7a0.16c8be4997bb.html</tspan>
 
 <tspan x="10" y="554"></tspan>
 
 <tspan x="10" y="570">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="586">[7815:0619/162412.494082:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="602">ted</tspan>
+<tspan x="10" y="586">[11177:0619/163016.832459:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="602">cted</tspan>
 
-<tspan x="10" y="618">[7815:0619/162412.494174:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="634">ted</tspan>
+<tspan x="10" y="618">[11177:0619/163016.837328:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
+<tspan x="10" y="634">cted</tspan>
 
-<tspan x="10" y="650">[7849:0619/162412.632674:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
-<tspan x="10" y="666">hreads in process gpu-process. </tspan>
+<tspan x="10" y="650">[11209:0619/163016.924571:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
+<tspan x="10" y="666">threads in process gpu-process. </tspan>
 
-<tspan x="10" y="682">[7815:0619/162412.642832:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="698">l.</tspan>
+<tspan x="10" y="682">[11177:0619/163016.967682:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="698">el.</tspan>
 
-<tspan x="10" y="714">[7815:0619/162412.645323:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="730">l.</tspan>
+<tspan x="10" y="714">[11177:0619/163016.972723:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="730">el.</tspan>
 
-<tspan x="10" y="746">[7815:0619/162412.646960:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="762">l.</tspan>
+<tspan x="10" y="746">[11177:0619/163016.978913:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="762">el.</tspan>
 
-<tspan x="10" y="778">[7815:0619/162412.648139:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="794">l.</tspan>
+<tspan x="10" y="778">[11177:0619/163016.989881:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="794">el.</tspan>
 
-<tspan x="10" y="810">[7815:0619/162412.648399:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="826">l.</tspan>
+<tspan x="10" y="810">[11177:0619/163016.993412:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
+<tspan x="10" y="826">el.</tspan>
 
-<tspan x="10" y="842">&gt; server listening on http-port 52052</tspan>
+<tspan x="10" y="842">&gt; server listening on http-port 43393</tspan>
 
 <tspan x="10" y="858"></tspan>
 
-<tspan x="10" y="874">browserTest - opened http://127.0.0.1:49869/index.default.html?modeTest=1</tspan>
+<tspan x="10" y="874">browserTest - opened http://127.0.0.1:60699/index.default.html?modeTest=1</tspan>
 
 <tspan x="10" y="890"></tspan>
 
-<tspan x="10" y="906">[7815:0619/162413.277814:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.sw\</tspan>
-<tspan x="10" y="922">gg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp\</tspan>
-<tspan x="10" y="938">/electron.16418dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="906">[11177:0619/163017.620603:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.s\</tspan>
+<tspan x="10" y="922">wgg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tm\</tspan>
+<tspan x="10" y="938">p/electron.16418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="954">[7815:0619/162413.300792:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildAp\</tspan>
-<tspan x="10" y="970">idoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron\</tspan>
-<tspan x="10" y="986">.16418dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="954">[11177:0619/163017.642432:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildA\</tspan>
+<tspan x="10" y="970">pidoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electro\</tspan>
+<tspan x="10" y="986">n.16418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1002">[7815:0619/162413.303121:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildAp\</tspan>
-<tspan x="10" y="1018">p_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16\</tspan>
-<tspan x="10" y="1034">418dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1002">[11177:0619/163017.644978:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildA\</tspan>
+<tspan x="10" y="1018">pp_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.1\</tspan>
+<tspan x="10" y="1034">6418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1050">[7815:0619/162413.305115:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildCu\</tspan>
-<tspan x="10" y="1066">stomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/elect\</tspan>
-<tspan x="10" y="1082">ron.16418dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1050">[11177:0619/163017.645022:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildC\</tspan>
+<tspan x="10" y="1066">ustomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/elec\</tspan>
+<tspan x="10" y="1082">tron.16418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1098">[7815:0619/162413.308790:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildLi\</tspan>
-<tspan x="10" y="1114">b_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16\</tspan>
-<tspan x="10" y="1130">418dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1098">[11177:0619/163017.648496:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildL\</tspan>
+<tspan x="10" y="1114">ib_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.1\</tspan>
+<tspan x="10" y="1130">6418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1146">[7815:0619/162413.310080:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildRe\</tspan>
-<tspan x="10" y="1162">adme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron\</tspan>
-<tspan x="10" y="1178">.16418dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1146">[11177:0619/163017.648540:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildR\</tspan>
+<tspan x="10" y="1162">eadme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electro\</tspan>
+<tspan x="10" y="1178">n.16418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1194">[7815:0619/162413.311309:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildTe\</tspan>
-<tspan x="10" y="1210">st_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.1\</tspan>
-<tspan x="10" y="1226">6418dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1194">[11177:0619/163017.650994:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildT\</tspan>
+<tspan x="10" y="1210">est_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.\</tspan>
+<tspan x="10" y="1226">16418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1242">[7815:0619/162413.312570:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_def\</tspan>
-<tspan x="10" y="1258">ault", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16418dc\</tspan>
-<tspan x="10" y="1274">5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1242">[11177:0619/163017.651338:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_de\</tspan>
+<tspan x="10" y="1258">fault", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16418e\</tspan>
+<tspan x="10" y="1274">1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1290">[7815:0619/162413.313868:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpage\</tspan>
-<tspan x="10" y="1306">_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.164\</tspan>
-<tspan x="10" y="1322">18dc5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1290">[11177:0619/163017.651554:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpag\</tspan>
+<tspan x="10" y="1306">e_default", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16\</tspan>
+<tspan x="10" y="1322">418e1ec7a0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1338">[7815:0619/162414.319794:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|-----\</tspan>
-<tspan x="10" y="1354">------|</tspan>
+<tspan x="10" y="1338">[11177:0619/163018.663030:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|----\</tspan>
+<tspan x="10" y="1354">-------|</tspan>
 
 <tspan x="10" y="1370">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 
@@ -147,12 +147,12 @@
 
 <tspan x="10" y="1434">----------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1450">", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16418dc5d52\</tspan>
-<tspan x="10" y="1466">0.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1450">", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16418e1ec7a\</tspan>
+<tspan x="10" y="1466">0.16c8be4997bb.html (71)</tspan>
 
-<tspan x="10" y="1482">[7815:0619/162414.325587:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/index\</tspan>
-<tspan x="10" y="1498">.html", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16418d\</tspan>
-<tspan x="10" y="1514">c5d520.c7064c2e16a3b.html (71)</tspan>
+<tspan x="10" y="1482">[11177:0619/163018.667934:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/inde\</tspan>
+<tspan x="10" y="1498">x.html", source: file:///tmp/npmTestPublished/node_modules/swgg-itunes-search/tmp/electron.16418\</tspan>
+<tspan x="10" y="1514">e1ec7a0.16c8be4997bb.html (71)</tspan>
 
 <tspan x="10" y="1530">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
@@ -213,15 +213,15 @@
 
 <tspan x="10" y="2026">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
 <tspan x="10" y="2042">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
-<tspan x="10" y="2058">018-06-19T16:24:13.242Z</tspan>
+<tspan x="10" y="2058">018-06-19T16:30:17.585Z</tspan>
 
-<tspan x="10" y="2074">|      17 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2074">|      23 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2090">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2106">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T16:24:11.035Z</tspan>
+<tspan x="10" y="2106">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T16:30:15.303Z</tspan>
 
-<tspan x="10" y="2122">|   16582 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2122">|   16596 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2138">-------------------------------------------------------</tspan>
 
@@ -240,7 +240,7 @@
 
 <tspan x="10" y="2266"></tspan>
 
-<tspan x="10" y="2282">[MODE_BUILD=npmTestPublished] - 2018-06-19T16:24:29.487Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2282">[MODE_BUILD=npmTestPublished] - 2018-06-19T16:30:33.823Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
