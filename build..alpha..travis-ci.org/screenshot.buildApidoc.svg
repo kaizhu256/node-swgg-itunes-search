@@ -1,9 +1,9 @@
-<svg height="958" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="958" fill="#555" width="720"></rect>
+<svg height="1278" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1278" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-19T18:07:31.047Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-21T18:08:14.468Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="58">ode-swgg-itunes-search</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 35630</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 38486</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package.json</tspan>
 
@@ -33,80 +33,108 @@
 
 <tspan x="10" y="298">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package.json</tspan>
 
-<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/README.md</tspan>
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package-lock.jso\</tspan>
+<tspan x="10" y="330">n</tspan>
 
-<tspan x="10" y="330">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/test.js</tspan>
+<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/README.md</tspan>
 
-<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.touch.txt</tspan>
+<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/test.js</tspan>
 
-<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.travis.yml</tspan>
+<tspan x="10" y="378">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.travis.yml</tspan>
 
-<tspan x="10" y="378">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-itunes-search ...</tspan>
+<tspan x="10" y="394">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-itunes-search ...</tspan>
 
-<tspan x="10" y="394">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-itunes-search</tspan>
+<tspan x="10" y="410">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-itunes-search</tspan>
 
-<tspan x="10" y="410">created apidoc file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="426">created apidoc file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/apidoc.html</tspan>
 
-<tspan x="10" y="426"></tspan>
+<tspan x="10" y="442"></tspan>
 
-<tspan x="10" y="442">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="458">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="458">(node:13736) DeprecationWarning: _linklist module is deprecated. Please use a userland alternati\</tspan>
-<tspan x="10" y="474">ve.</tspan>
+<tspan x="10" y="474">(node:5412) ExperimentalWarning: The http2 module is an experimental API.</tspan>
 
-<tspan x="10" y="490">(node:13736) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="490">(node:5412) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="506"></tspan>
+<tspan x="10" y="506">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module \</tspan>
+<tspan x="10" y="522">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="522">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/\</tspan>
-<tspan x="10" y="538">tmp/build/test-report.json</tspan>
+<tspan x="10" y="538">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module is\</tspan>
+<tspan x="10" y="554"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="554"></tspan>
+<tspan x="10" y="570">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module \</tspan>
+<tspan x="10" y="586">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="570">-------------------------------------------------------</tspan>
+<tspan x="10" y="602">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module \</tspan>
+<tspan x="10" y="618">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="586">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-19T18:07:31.308Z</tspan>
+<tspan x="10" y="634">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module is\</tspan>
+<tspan x="10" y="650"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="602">|     147 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="666">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' modu\</tspan>
+<tspan x="10" y="682">le is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="618">-------------------------------------------------------</tspan>
+<tspan x="10" y="698">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module \</tspan>
+<tspan x="10" y="714">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="634">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T18:07:09.912Z</tspan>
+<tspan x="10" y="730">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module \</tspan>
+<tspan x="10" y="746">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="650">|   17916 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="762">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mod\</tspan>
+<tspan x="10" y="778">ule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="666">-------------------------------------------------------</tspan>
+<tspan x="10" y="794">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module \</tspan>
+<tspan x="10" y="810">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="682">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
-<tspan x="10" y="698">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
-<tspan x="10" y="714">018-06-19T18:06:03.884Z</tspan>
+<tspan x="10" y="826">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-driv\</tspan>
+<tspan x="10" y="842">er' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="730">|      20 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="858">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect' \</tspan>
+<tspan x="10" y="874">module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="746">-------------------------------------------------------</tspan>
+<tspan x="10" y="890">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="906">nspect_client' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="762">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T18:06:01.701Z</tspan>
+<tspan x="10" y="922">(node:5412) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="938">nspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="778">|   16564 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="954"></tspan>
 
-<tspan x="10" y="794">-------------------------------------------------------</tspan>
+<tspan x="10" y="970">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/\</tspan>
+<tspan x="10" y="986">tmp/build/test-report.json</tspan>
 
-<tspan x="10" y="810"></tspan>
+<tspan x="10" y="1002"></tspan>
 
-<tspan x="10" y="826">created test-report file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/test-rep\</tspan>
-<tspan x="10" y="842">ort.html</tspan>
+<tspan x="10" y="1018">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="858"></tspan>
+<tspan x="10" y="1034">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T18:08:14.648Z</tspan>
 
-<tspan x="10" y="874"></tspan>
+<tspan x="10" y="1050">|     140 ms            0 failed        1 passed      |</tspan>
 
-<tspan x="10" y="890">buildApidoc - 0 failed tests</tspan>
+<tspan x="10" y="1066">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="906"></tspan>
+<tspan x="10" y="1082">| test-report - npmTest - node - linux v10.5.0 - 2018-06-21T18:07:54.724Z</tspan>
 
-<tspan x="10" y="922"></tspan>
+<tspan x="10" y="1098">|   17259 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="938">[MODE_BUILD=buildApidoc] - 2018-06-19T18:07:33.021Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1114">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1130"></tspan>
+
+<tspan x="10" y="1146">created test-report file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/test-rep\</tspan>
+<tspan x="10" y="1162">ort.html</tspan>
+
+<tspan x="10" y="1178"></tspan>
+
+<tspan x="10" y="1194"></tspan>
+
+<tspan x="10" y="1210">buildApidoc - 0 failed tests</tspan>
+
+<tspan x="10" y="1226"></tspan>
+
+<tspan x="10" y="1242"></tspan>
+
+<tspan x="10" y="1258">[MODE_BUILD=buildApidoc] - 2018-06-21T18:08:16.135Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
