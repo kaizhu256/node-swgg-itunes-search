@@ -7,7 +7,7 @@
 
 <tspan x="10" y="58"></tspan>
 <tspan x="10" y="74">  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0</tspan>
-<tspan x="10" y="90">100 3283k  100 3283k    0     0  5320k      0 --:--:-- --:--:-- --:--:-- 5322k</tspan>
+<tspan x="10" y="90">100 3283k  100 3283k    0     0  6473k      0 --:--:-- --:--:-- --:--:-- 6476k</tspan>
 
 <tspan x="10" y="106"></tspan>
 
@@ -16,20 +16,20 @@
 
 <tspan x="10" y="154">&gt; server listening on http-port 8081</tspan>
 
-<tspan x="10" y="170">serverLog - {"time":"2018-06-21T18:14:44.707Z","type":"serverResponse","method":"GET","url":"/",\</tspan>
-<tspan x="10" y="186">"statusCode":200,"timeElapsed":19,"requestContentLength":0,"responseContentLength":0,"requestHea\</tspan>
+<tspan x="10" y="170">serverLog - {"time":"2018-06-21T18:20:08.756Z","type":"serverResponse","method":"GET","url":"/",\</tspan>
+<tspan x="10" y="186">"statusCode":200,"timeElapsed":18,"requestContentLength":0,"responseContentLength":0,"requestHea\</tspan>
 <tspan x="10" y="202">derXForwardedFor":"","requestHeaderOrigin":"","requestHeaderReferer":"","requestHeaderUserAgent"\</tspan>
 <tspan x="10" y="218">:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 El\</tspan>
 <tspan x="10" y="234">ectron/1.7.15 Safari/537.36"}</tspan>
 
-<tspan x="10" y="250">serverLog - {"time":"2018-06-21T18:14:44.823Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
-<tspan x="10" y="266">sets.utility2.rollup.js","statusCode":200,"timeElapsed":97,"requestContentLength":0,"responseCon\</tspan>
+<tspan x="10" y="250">serverLog - {"time":"2018-06-21T18:20:08.879Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
+<tspan x="10" y="266">sets.utility2.rollup.js","statusCode":200,"timeElapsed":95,"requestContentLength":0,"responseCon\</tspan>
 <tspan x="10" y="282">tentLength":0,"requestHeaderXForwardedFor":"","requestHeaderOrigin":"","requestHeaderReferer":"h\</tspan>
 <tspan x="10" y="298">ttp://127.0.0.1:8081/","requestHeaderUserAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537\</tspan>
 <tspan x="10" y="314">.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36"}</tspan>
 
-<tspan x="10" y="330">serverLog - {"time":"2018-06-21T18:14:45.092Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
-<tspan x="10" y="346">sets.swgg.swagger.json","statusCode":200,"timeElapsed":7,"requestContentLength":0,"responseConte\</tspan>
+<tspan x="10" y="330">serverLog - {"time":"2018-06-21T18:20:09.137Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
+<tspan x="10" y="346">sets.swgg.swagger.json","statusCode":200,"timeElapsed":4,"requestContentLength":0,"responseConte\</tspan>
 <tspan x="10" y="362">ntLength":0,"requestHeaderXForwardedFor":"","requestHeaderOrigin":"","requestHeaderReferer":"htt\</tspan>
 <tspan x="10" y="378">p://127.0.0.1:8081/","requestHeaderUserAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3\</tspan>
 <tspan x="10" y="394">6 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36"}</tspan>
