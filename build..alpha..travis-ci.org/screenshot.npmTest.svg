@@ -1,0 +1,230 @@
+<svg height="2046" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2046" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+
+<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-19T17:38:46.365Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
+<tspan x="10" y="58">swgg-itunes-search</tspan>
+
+<tspan x="10" y="74"></tspan>
+
+<tspan x="10" y="90"></tspan>
+
+<tspan x="10" y="106">covering $ /home/travis/.nvm/versions/node/v6.14.3/bin/node /home/travis/build/kaizhu256/node-sw\</tspan>
+<tspan x="10" y="122">gg-itunes-search/test.js</tspan>
+
+<tspan x="10" y="138"></tspan>
+
+<tspan x="10" y="154">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/\</tspan>
+<tspan x="10" y="170">build/test-report.json</tspan>
+
+<tspan x="10" y="186">override assets /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swagger.json</tspan>
+
+<tspan x="10" y="202">&gt; server listening on http-port 41281</tspan>
+
+<tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package.json</tspan>
+
+<tspan x="10" y="234">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swag\</tspan>
+<tspan x="10" y="250">ger.json</tspan>
+
+<tspan x="10" y="266">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.gitignore</tspan>
+
+<tspan x="10" y="282">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/lib.swgg_itunes_\</tspan>
+<tspan x="10" y="298">search.js</tspan>
+
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/LICENSE</tspan>
+
+<tspan x="10" y="330">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/npm_scripts.sh</tspan>
+
+<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package.json</tspan>
+
+<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/README.md</tspan>
+
+<tspan x="10" y="378">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/test.js</tspan>
+
+<tspan x="10" y="394">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.travis.yml</tspan>
+
+<tspan x="10" y="410">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-itunes-search ...</tspan>
+
+<tspan x="10" y="426">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-itunes-search</tspan>
+
+<tspan x="10" y="442">created apidoc file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/apidoc.html</tspan>
+
+<tspan x="10" y="458"></tspan>
+
+<tspan x="10" y="474">[node test-case 1 of 8 passed] - testCase_buildApidoc_default</tspan>
+
+<tspan x="10" y="490">[node test-case 2 of 8 passed] - testCase_buildCustomOrg_default</tspan>
+
+<tspan x="10" y="506">[node test-case 3 of 8 passed] - testCase_buildLib_default</tspan>
+
+<tspan x="10" y="522">[node test-case 4 of 8 passed] - testCase_buildReadme_default</tspan>
+
+<tspan x="10" y="538">[node test-case 5 of 8 passed] - testCase_buildTest_default</tspan>
+
+<tspan x="10" y="554">[node test-case 6 of 8 passed] - testCase_nop_default</tspan>
+
+<tspan x="10" y="570"></tspan>
+
+<tspan x="10" y="586">browserTest - created electron entry-page /home/travis/build/kaizhu256/node-swgg-itunes-search/t\</tspan>
+<tspan x="10" y="602">mp/electron.1641920a4cb0.85b4f6163be92.html</tspan>
+
+<tspan x="10" y="618"></tspan>
+
+<tspan x="10" y="634">(node:8059) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
+<tspan x="10" y="650">e.</tspan>
+
+<tspan x="10" y="666">(node:8059) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+
+<tspan x="10" y="682">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+
+<tspan x="10" y="698">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+
+<tspan x="10" y="714">[8126:0619/173847.696702:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="730">ted</tspan>
+
+<tspan x="10" y="746">[8126:0619/173847.696763:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="762">ted</tspan>
+
+<tspan x="10" y="778">[8158:0619/173847.726936:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="794">hreads in process gpu-process. </tspan>
+
+<tspan x="10" y="810">[8126:0619/173847.784479:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="826">l.</tspan>
+
+<tspan x="10" y="842">[8126:0619/173847.787533:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="858">l.</tspan>
+
+<tspan x="10" y="874">[8126:0619/173847.790939:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="890">l.</tspan>
+
+<tspan x="10" y="906">[8126:0619/173847.794218:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="922">l.</tspan>
+
+<tspan x="10" y="938">[8126:0619/173847.797053:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="954">l.</tspan>
+
+<tspan x="10" y="970"></tspan>
+
+<tspan x="10" y="986">browserTest - opened http://127.0.0.1:41281/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+
+<tspan x="10" y="1002"></tspan>
+
+<tspan x="10" y="1018">&gt; server listening on http-port 42560</tspan>
+
+<tspan x="10" y="1034">[8126:0619/173848.444848:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:41281/asset\</tspan>
+<tspan x="10" y="1050">s.swgg.swagger.json</tspan>
+
+<tspan x="10" y="1066">    "..."</tspan>
+
+<tspan x="10" y="1082">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:41281/assets.swgg.swagger.json", so\</tspan>
+<tspan x="10" y="1098">urce: file:///home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/electron.1641920a4cb0.85b4\</tspan>
+<tspan x="10" y="1114">f6163be92.html (266)</tspan>
+
+<tspan x="10" y="1130">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="1146"></tspan>
+
+<tspan x="10" y="1162">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/b\</tspan>
+<tspan x="10" y="1178">uild/screenshot.npmTest.browser.%2F.png</tspan>
+
+<tspan x="10" y="1194"></tspan>
+
+<tspan x="10" y="1210">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/b\</tspan>
+<tspan x="10" y="1226">uild/screenshot.npmTest.browser.%2F.html</tspan>
+
+<tspan x="10" y="1242"></tspan>
+
+<tspan x="10" y="1258">browserTest - exit-code 0 - http://127.0.0.1:41281/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+
+<tspan x="10" y="1274"></tspan>
+
+<tspan x="10" y="1290"></tspan>
+
+<tspan x="10" y="1306">browserTest - merged coverage from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp\</tspan>
+<tspan x="10" y="1322">/coverage.npmTest.browser.%2Findex.html.json</tspan>
+
+<tspan x="10" y="1338"></tspan>
+
+<tspan x="10" y="1354"></tspan>
+
+<tspan x="10" y="1370">browserTest - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/\</tspan>
+<tspan x="10" y="1386">tmp/test-report.npmTest.browser.%2Findex.html.json</tspan>
+
+<tspan x="10" y="1402"></tspan>
+
+<tspan x="10" y="1418">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
+
+<tspan x="10" y="1434">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="1450">File                            |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+
+<tspan x="10" y="1466">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="1482">   node-swgg-itunes-search/     |       100 |     92.75 |       100 |       100 |</tspan>
+
+<tspan x="10" y="1498">      example.js                |       100 |     92.86 |       100 |       100 |</tspan>
+
+<tspan x="10" y="1514">      lib.swgg_itunes_search.js |       100 |       100 |       100 |       100 |</tspan>
+
+<tspan x="10" y="1530">      test.js                   |       100 |     77.78 |       100 |       100 |</tspan>
+
+<tspan x="10" y="1546">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="1562">All files                       |       100 |     92.75 |       100 |       100 |</tspan>
+
+<tspan x="10" y="1578">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+
+<tspan x="10" y="1594"></tspan>
+
+<tspan x="10" y="1610">created coverage file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/coverage.ht\</tspan>
+<tspan x="10" y="1626">ml/index.html</tspan>
+
+<tspan x="10" y="1642"></tspan>
+
+<tspan x="10" y="1658">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/\</tspan>
+<tspan x="10" y="1674">build/test-report.json</tspan>
+
+<tspan x="10" y="1690"></tspan>
+
+<tspan x="10" y="1706">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1722">| test-report - npmTest - node - linux v6.14.3 - 2018-06-19T17:38:46.671Z</tspan>
+
+<tspan x="10" y="1738">|   17331 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="1754">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1770">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
+<tspan x="10" y="1786">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2\</tspan>
+<tspan x="10" y="1802">018-06-19T17:37:41.396Z</tspan>
+
+<tspan x="10" y="1818">|      15 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="1834">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1850">| test-report - npmTestPublished - node - linux v6.14.3 - 2018-06-19T17:37:39.151Z</tspan>
+
+<tspan x="10" y="1866">|   16627 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="1882">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1898"></tspan>
+
+<tspan x="10" y="1914">created test-report file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/test-rep\</tspan>
+<tspan x="10" y="1930">ort.html</tspan>
+
+<tspan x="10" y="1946"></tspan>
+
+<tspan x="10" y="1962"></tspan>
+
+<tspan x="10" y="1978">npmTest - 0 failed tests</tspan>
+
+<tspan x="10" y="1994"></tspan>
+
+<tspan x="10" y="2010"></tspan>
+
+<tspan x="10" y="2026">[MODE_BUILD=npmTest] - 2018-06-19T17:39:05.622Z - EXIT_CODE - 0</tspan>
+
+</text>
+</svg>

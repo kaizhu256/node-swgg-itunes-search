@@ -1,0 +1,481 @@
+{
+    "basePath": "/",
+    "externalDocs": {
+        "description": "find out more about itunes-search's web-apis",
+        "url": "https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html"
+    },
+    "info": {
+        "description": "this zero-dependency package will provide a swagger-client for itunes-search's web-apis, with a working web-demo",
+        "title": "swgg-itunes-search",
+        "version": "2018.1.16",
+        "x-swgg-description": "this zero-dependency package will provide a swagger-client for itunes-search's web-apis, with a working web-demo",
+        "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-itunes-search/build..beta..travis-ci.org/app/assets.app.js",
+        "x-swgg-homepage": "https://github.com/kaizhu256/node-swgg-itunes-search"
+    },
+    "parameters": {
+        "itunes-search.callback": {
+            "default": "wsSearchCB",
+            "description": "The name of the Javascript callback function you want to use when returning search results to your website.",
+            "in": "query",
+            "name": "callback",
+            "type": "string"
+        },
+        "itunes-search.entity": {
+            "description": "The type of results you want returned, relative to the specified media type. For example: movieArtist for a movie media type search. The default is the track entity associated with the specified media type.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW2",
+            "enum": [
+                "album",
+                "all",
+                "allArtist",
+                "allTrack",
+                "audiobook",
+                "audiobookAuthor",
+                "ebook",
+                "iPadSoftware",
+                "macSoftware",
+                "mix",
+                "movie",
+                "movieArtist",
+                "music",
+                "musicArtist",
+                "musicTrack",
+                "musicVideo",
+                "podcast",
+                "podcastAuthor",
+                "shortFilm",
+                "shortFilmArtist",
+                "software",
+                "song",
+                "tvEpisode",
+                "tvSeason",
+                "tvShow"
+            ],
+            "in": "query",
+            "name": "entity",
+            "type": "string"
+        },
+        "itunes-search.limit": {
+            "description": "entity limit per id/isbn/upc/amgAlbumId/amgArtistId/amgVideoId",
+            "in": "query",
+            "name": "limit",
+            "type": "integer"
+        },
+        "itunes-search.sort": {
+            "description": "sort parameter",
+            "enum": [
+                "recent"
+            ],
+            "in": "query",
+            "name": "sort",
+            "type": "string"
+        }
+    },
+    "paths": {
+        "/lookup#amgAlbumId.required": {
+            "get": {
+                "description": "Lookup API.\n\nYou can also create a lookup request to search for content in the stores based on iTunes IDs, UPCs/ EANs, and All Music Guide (AMG) IDs. ID-based lookups are faster and contain fewer false-positive results.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/LookupExamples.html",
+                "operationId": "_2Flookup_23amgAlbumId.required_20GET",
+                "parameters": [
+                    {
+                        "default": [
+                            "15175",
+                            "15176",
+                            "15177",
+                            "15178",
+                            "15183",
+                            "15184",
+                            "15187",
+                            "1519",
+                            "15191",
+                            "15195",
+                            "15197",
+                            "15198"
+                        ],
+                        "description": "AMG Album ID",
+                        "in": "query",
+                        "items": {
+                            "type": "string"
+                        },
+                        "name": "amgAlbumId",
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.entity"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.callback"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.limit"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.sort"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "itunes-search"
+                ],
+                "x-swgg-host": "itunes.apple.com",
+                "x-swgg-tags0": "itunes-search"
+            }
+        },
+        "/lookup#amgArtistId.required": {
+            "get": {
+                "description": "Lookup API.\n\nYou can also create a lookup request to search for content in the stores based on iTunes IDs, UPCs/ EANs, and All Music Guide (AMG) IDs. ID-based lookups are faster and contain fewer false-positive results.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/LookupExamples.html",
+                "operationId": "_2Flookup_23amgArtistId.required_20GET",
+                "parameters": [
+                    {
+                        "default": [
+                            "468749",
+                            "5723"
+                        ],
+                        "description": "AMG artist ID",
+                        "in": "query",
+                        "items": {
+                            "type": "string"
+                        },
+                        "name": "amgArtistId",
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.entity"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.callback"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.limit"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.sort"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "itunes-search"
+                ],
+                "x-swgg-host": "itunes.apple.com",
+                "x-swgg-tags0": "itunes-search"
+            }
+        },
+        "/lookup#amgVideoId.required": {
+            "get": {
+                "description": "Lookup API.\n\nYou can also create a lookup request to search for content in the stores based on iTunes IDs, UPCs/ EANs, and All Music Guide (AMG) IDs. ID-based lookups are faster and contain fewer false-positive results.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/LookupExamples.html",
+                "operationId": "_2Flookup_23amgVideoId.required_20GET",
+                "parameters": [
+                    {
+                        "default": [
+                            "17120"
+                        ],
+                        "description": "AMG Video ID",
+                        "in": "query",
+                        "items": {
+                            "type": "string"
+                        },
+                        "name": "amgVideoId",
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.entity"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.callback"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.limit"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.sort"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "itunes-search"
+                ],
+                "x-swgg-host": "itunes.apple.com",
+                "x-swgg-tags0": "itunes-search"
+            }
+        },
+        "/lookup#id.required": {
+            "get": {
+                "description": "Lookup API.\n\nYou can also create a lookup request to search for content in the stores based on iTunes IDs, UPCs/ EANs, and All Music Guide (AMG) IDs. ID-based lookups are faster and contain fewer false-positive results.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/LookupExamples.html",
+                "operationId": "_2Flookup_23id.required_20GET",
+                "parameters": [
+                    {
+                        "default": [
+                            "909253",
+                            "284910350"
+                        ],
+                        "description": "iTunes ID",
+                        "in": "query",
+                        "items": {
+                            "type": "string"
+                        },
+                        "name": "id",
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.entity"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.callback"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.limit"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.sort"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "itunes-search"
+                ],
+                "x-swgg-host": "itunes.apple.com",
+                "x-swgg-tags0": "itunes-search"
+            }
+        },
+        "/lookup#isbn.required": {
+            "get": {
+                "description": "Lookup API.\n\nYou can also create a lookup request to search for content in the stores based on iTunes IDs, UPCs/ EANs, and All Music Guide (AMG) IDs. ID-based lookups are faster and contain fewer false-positive results.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/LookupExamples.html",
+                "operationId": "_2Flookup_23isbn.required_20GET",
+                "parameters": [
+                    {
+                        "default": [
+                            "9780316069359"
+                        ],
+                        "description": "13 digit ISBN",
+                        "in": "query",
+                        "items": {
+                            "type": "string"
+                        },
+                        "name": "isbn",
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.entity"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.callback"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.limit"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.sort"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "itunes-search"
+                ],
+                "x-swgg-host": "itunes.apple.com",
+                "x-swgg-tags0": "itunes-search"
+            }
+        },
+        "/lookup#upc.required": {
+            "get": {
+                "description": "Lookup API.\n\nYou can also create a lookup request to search for content in the stores based on iTunes IDs, UPCs/ EANs, and All Music Guide (AMG) IDs. ID-based lookups are faster and contain fewer false-positive results.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/LookupExamples.html",
+                "operationId": "_2Flookup_23upc.required_20GET",
+                "parameters": [
+                    {
+                        "default": [
+                            "720642462928"
+                        ],
+                        "description": "UPC/EAN barcode",
+                        "in": "query",
+                        "items": {
+                            "type": "string"
+                        },
+                        "name": "upc",
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.entity"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.callback"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.limit"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.sort"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "itunes-search"
+                ],
+                "x-swgg-host": "itunes.apple.com",
+                "x-swgg-tags0": "itunes-search"
+            }
+        },
+        "/search": {
+            "get": {
+                "description": "Search API.\n\nTo search for content from a field in your website and display the results in your website, you must create a search field that passes a fully-qualified URL content request to the iTunes Store, parse the JavaScript Object Notation (JSON) format returned from the search, and display the results in your website.\n\nThe fully-qualified URL must have the following format: https://itunes.apple.com/search?parameterkeyvalue. Where parameterkeyvalue can be one or more parameter key and value pairs indicating the details of your query.\n\nTo construct a parameter key and value pair, you must concatenate each parameter key with an equal sign (=) and a value string. For example: key1=value1. To create a string of parameter key and value pairs, you must concatenate each pair using an ampersand (&). For example: key1=value1&key2=value2&key3=value3.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html",
+                "operationId": "_2Fsearch_20GET",
+                "parameters": [
+                    {
+                        "default": "jack+johnson",
+                        "description": "The URL-encoded text string you want to search for. For example: jack+johnson.",
+                        "in": "query",
+                        "name": "term",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "default": "US",
+                        "description": "The two-letter country code for the store you want to search. The search uses the default store front for the specified country. For example: US. The default is US.\n\nhttps://en.wikipedia.org/wiki/ISO_3166-1_alpha-2",
+                        "in": "query",
+                        "name": "country",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.entity"
+                    },
+                    {
+                        "description": "The attribute you want to search for in the stores, relative to the specified media type. For example, if you want to search for an artist by name specify entity=allArtist&attribute=allArtistTerm. In this example, if you search for term=maroon, iTunes returns “Maroon 5” in the search results, instead of all artists who have ever recorded a song with the word “maroon” in the title. The default is all attributes associated with the specified media type.\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW3",
+                        "enum": [
+                            "actorTerm",
+                            "albumTerm",
+                            "all",
+                            "allArtistTerm",
+                            "allTrackTerm",
+                            "artistTerm",
+                            "audiobook",
+                            "authorTerm",
+                            "composerTerm",
+                            "descriptionTerm",
+                            "directorTerm",
+                            "featureFilmTerm",
+                            "genreIndex",
+                            "keywordsTerm",
+                            "languageTerm",
+                            "mixTerm",
+                            "movie",
+                            "movieArtistTerm",
+                            "movieTerm",
+                            "music",
+                            "musicVideo",
+                            "podcast",
+                            "producerTerm",
+                            "ratingIndex",
+                            "ratingTerm",
+                            "releaseYearTerm",
+                            "shortFilm",
+                            "shortFilmTerm",
+                            "showTerm",
+                            "software",
+                            "softwareDeveloper",
+                            "songTerm",
+                            "titleTerm",
+                            "tvEpisodeTerm",
+                            "tvSeasonTerm",
+                            "tvShow"
+                        ],
+                        "in": "query",
+                        "name": "attribute",
+                        "type": "string"
+                    },
+                    {
+                        "$ref": "#/parameters/itunes-search.callback"
+                    },
+                    {
+                        "description": "The number of search results you want the iTunes Store to return. For example: 25. The default is 50.",
+                        "in": "query",
+                        "name": "limit",
+                        "type": "integer"
+                    },
+                    {
+                        "default": "en_us",
+                        "description": "The language, English or Japanese, you want to use when returning search results. Specify the language using the five-letter codename. For example: en_us. The default is en_us (English).",
+                        "enum": [
+                            "en_us",
+                            "ja_jp"
+                        ],
+                        "in": "query",
+                        "name": "lang",
+                        "type": "string"
+                    },
+                    {
+                        "default": 2,
+                        "description": "The search result key version you want to receive back from your search. The default is 2.",
+                        "enum": [
+                            1,
+                            2
+                        ],
+                        "in": "query",
+                        "name": "version",
+                        "type": "integer"
+                    },
+                    {
+                        "default": "Yes",
+                        "description": "A flag indicating whether or not you want to include explicit content in your search results. The default is Yes.",
+                        "enum": [
+                            "Yes",
+                            "No"
+                        ],
+                        "in": "query",
+                        "name": "explicit",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "itunes-search"
+                ],
+                "x-swgg-host": "itunes.apple.com",
+                "x-swgg-tags0": "itunes-search"
+            }
+        }
+    },
+    "schemes": [
+        "https"
+    ],
+    "swagger": "2.0",
+    "tags": [
+        {
+            "description": "iTunes Search API\n\nhttps://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html",
+            "name": "itunes-search",
+            "x-swgg-tags0": "itunes-search"
+        }
+    ],
+    "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-itunes-search/build..beta..travis-ci.org/app/assets.app.js",
+    "x-swgg-operationIdFromPath": true
+}
