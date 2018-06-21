@@ -1,41 +1,43 @@
-<svg height="318" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="318" fill="#555" width="720"></rect>
+<svg height="334" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="334" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">2018-06-21 18:11:26 +0000u000a[npm publishAfterCommit]</tspan>
+<tspan x="10" y="26">2018-06-21 16:19:50 -0500u000a[build clean]</tspan>
 
-<tspan x="10" y="42"></tspan>
+<tspan x="10" y="42">2018-06-21 18:22:14 +0000u000a[ci skip] [npm published 2018.6.21]</tspan>
 
-<tspan x="10" y="58">2018-06-21 13:05:52 -0500u000a[npm publishAfterCommitAfterBuild]</tspan>
+<tspan x="10" y="58"></tspan>
 
-<tspan x="10" y="74">2018-06-19 18:05:49 +0000u000a[ci skip] npm published</tspan>
+<tspan x="10" y="74">2018-06-21 13:05:52 -0500u000a[npm publishAfterCommitAfterBuild]</tspan>
 
-<tspan x="10" y="90"></tspan>
+<tspan x="10" y="90">2018-06-19 18:05:49 +0000u000a[ci skip] npm published</tspan>
 
-<tspan x="10" y="106">2018-06-19 10:28:15 -0500u000a[npm publishAfterCommitAfterBuild]</tspan>
+<tspan x="10" y="106"></tspan>
 
-<tspan x="10" y="122">2018-01-16 10:00:45 +0700u000a[build clean]</tspan>
+<tspan x="10" y="122">2018-06-19 10:28:15 -0500u000a[npm publishAfterCommitAfterBuild]</tspan>
 
-<tspan x="10" y="138"></tspan>
+<tspan x="10" y="138">2018-01-16 10:00:45 +0700u000a[build clean]</tspan>
 
-<tspan x="10" y="154">2018-01-16 09:58:07 +0700u000a[npm publish] - npm publish 2018.1.15</tspan>
+<tspan x="10" y="154"></tspan>
 
-<tspan x="10" y="170">- add api GET /lookup#amgAlbumId.required</tspan>
+<tspan x="10" y="170">2018-01-16 09:58:07 +0700u000a[npm publish] - npm publish 2018.1.15</tspan>
 
-<tspan x="10" y="186">- add api GET /lookup#amgArtistId.required</tspan>
+<tspan x="10" y="186">- add api GET /lookup#amgAlbumId.required</tspan>
 
-<tspan x="10" y="202">- add api GET /lookup#amgVideoId.required</tspan>
+<tspan x="10" y="202">- add api GET /lookup#amgArtistId.required</tspan>
 
-<tspan x="10" y="218">- add api GET /lookup#id.required</tspan>
+<tspan x="10" y="218">- add api GET /lookup#amgVideoId.required</tspan>
 
-<tspan x="10" y="234">- add api GET /lookup#isbn.required</tspan>
+<tspan x="10" y="234">- add api GET /lookup#id.required</tspan>
 
-<tspan x="10" y="250">- add api GET /lookup#upc.required</tspan>
+<tspan x="10" y="250">- add api GET /lookup#isbn.required</tspan>
 
-<tspan x="10" y="266">- add api GET /search</tspan>
+<tspan x="10" y="266">- add api GET /lookup#upc.required</tspan>
 
-<tspan x="10" y="282"></tspan>
+<tspan x="10" y="282">- add api GET /search</tspan>
 
-<tspan x="10" y="298">2014-03-26 02:31:50 +0700u000aadd blank README.md</tspan>
+<tspan x="10" y="298"></tspan>
+
+<tspan x="10" y="314">2014-03-26 02:31:50 +0700u000aadd blank README.md</tspan>
 
 </text>
 </svg>

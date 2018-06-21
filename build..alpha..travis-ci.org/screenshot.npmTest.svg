@@ -1,9 +1,9 @@
-<svg height="2446" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="2446" fill="#555" width="720"></rect>
+<svg height="2430" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2430" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-21T18:17:46.053Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-21T21:23:09.041Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
 <tspan x="10" y="58">swgg-itunes-search</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -20,7 +20,7 @@
 
 <tspan x="10" y="186">override assets /home/travis/build/kaizhu256/node-swgg-itunes-search/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="202">&gt; server listening on http-port 51883</tspan>
+<tspan x="10" y="202">&gt; server listening on http-port 62007</tspan>
 
 <tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/package.json</tspan>
 
@@ -45,224 +45,222 @@
 
 <tspan x="10" y="410">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/test.js</tspan>
 
-<tspan x="10" y="426">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.touch.txt</tspan>
+<tspan x="10" y="426">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.travis.yml</tspan>
 
-<tspan x="10" y="442">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-itunes-search/.travis.yml</tspan>
+<tspan x="10" y="442">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-itunes-search ...</tspan>
 
-<tspan x="10" y="458">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-itunes-search ...</tspan>
+<tspan x="10" y="458">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-itunes-search</tspan>
 
-<tspan x="10" y="474">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-itunes-search</tspan>
+<tspan x="10" y="474">created apidoc file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/apidoc.html</tspan>
 
-<tspan x="10" y="490">created apidoc file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="490"></tspan>
 
-<tspan x="10" y="506"></tspan>
+<tspan x="10" y="506">[node test-case 1 of 8 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="522">[node test-case 1 of 8 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="522">[node test-case 2 of 8 passed] - testCase_buildCustomOrg_default</tspan>
 
-<tspan x="10" y="538">[node test-case 2 of 8 passed] - testCase_buildCustomOrg_default</tspan>
+<tspan x="10" y="538">[node test-case 3 of 8 passed] - testCase_buildLib_default</tspan>
 
-<tspan x="10" y="554">[node test-case 3 of 8 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="554">[node test-case 4 of 8 passed] - testCase_buildReadme_default</tspan>
 
-<tspan x="10" y="570">[node test-case 4 of 8 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="570">[node test-case 5 of 8 passed] - testCase_buildTest_default</tspan>
 
-<tspan x="10" y="586">[node test-case 5 of 8 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="586">[node test-case 6 of 8 passed] - testCase_nop_default</tspan>
 
-<tspan x="10" y="602">[node test-case 6 of 8 passed] - testCase_nop_default</tspan>
+<tspan x="10" y="602"></tspan>
 
-<tspan x="10" y="618"></tspan>
+<tspan x="10" y="618">browserTest - created electron entry-page /home/travis/build/kaizhu256/node-swgg-itunes-search/t\</tspan>
+<tspan x="10" y="634">mp/electron.164243ac8570.11088b8ce2189.html</tspan>
 
-<tspan x="10" y="634">browserTest - created electron entry-page /home/travis/build/kaizhu256/node-swgg-itunes-search/t\</tspan>
-<tspan x="10" y="650">mp/electron.16423910f610.ab87c4ecaea9b.html</tspan>
+<tspan x="10" y="650"></tspan>
 
-<tspan x="10" y="666"></tspan>
+<tspan x="10" y="666">(node:5373) ExperimentalWarning: The http2 module is an experimental API.</tspan>
 
-<tspan x="10" y="682">(node:10677) ExperimentalWarning: The http2 module is an experimental API.</tspan>
+<tspan x="10" y="682">(node:5373) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="698">(node:10677) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="698">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module \</tspan>
+<tspan x="10" y="714">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="714">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/splaytree' module\</tspan>
-<tspan x="10" y="730"> is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="730">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module is\</tspan>
+<tspan x="10" y="746"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="746">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/codemap' module i\</tspan>
-<tspan x="10" y="762">s deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="762">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module \</tspan>
+<tspan x="10" y="778">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="778">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/consarray' module\</tspan>
-<tspan x="10" y="794"> is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="794">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module \</tspan>
+<tspan x="10" y="810">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="810">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/csvparser' module\</tspan>
-<tspan x="10" y="826"> is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="826">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module is\</tspan>
+<tspan x="10" y="842"> deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="842">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile' module i\</tspan>
-<tspan x="10" y="858">s deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="858">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' modu\</tspan>
+<tspan x="10" y="874">le is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="874">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/profile_view' mod\</tspan>
-<tspan x="10" y="890">ule is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="890">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module \</tspan>
+<tspan x="10" y="906">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="906">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/logreader' module\</tspan>
-<tspan x="10" y="922"> is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="922">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module \</tspan>
+<tspan x="10" y="938">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="938">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/arguments' module\</tspan>
-<tspan x="10" y="954"> is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="954">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mod\</tspan>
+<tspan x="10" y="970">ule is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="970">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor' mo\</tspan>
-<tspan x="10" y="986">dule is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="986">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module \</tspan>
+<tspan x="10" y="1002">is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1002">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/SourceMap' module\</tspan>
-<tspan x="10" y="1018"> is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1018">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-driv\</tspan>
+<tspan x="10" y="1034">er' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1034">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'v8/tools/tickprocessor-dri\</tspan>
-<tspan x="10" y="1050">ver' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1050">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect' \</tspan>
+<tspan x="10" y="1066">module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1066">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/_inspect'\</tspan>
-<tspan x="10" y="1082"> module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1082">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="1098">nspect_client' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1098">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/\</tspan>
-<tspan x="10" y="1114">inspect_client' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1114">(node:5373) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/i\</tspan>
+<tspan x="10" y="1130">nspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
 
-<tspan x="10" y="1130">(node:10677) [DEP0084] DeprecationWarning: Requiring Node.js-bundled 'node-inspect/lib/internal/\</tspan>
-<tspan x="10" y="1146">inspect_repl' module is deprecated. Please install the necessary module locally.</tspan>
+<tspan x="10" y="1146">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="1162">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="1162">&gt; Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="1178">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="1178">server listening on http-port 55258</tspan>
 
-<tspan x="10" y="1194">[10744:0621/181747.148740:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager dete\</tspan>
-<tspan x="10" y="1210">cted</tspan>
+<tspan x="10" y="1194">[5440:0621/212310.167332:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="1210">ted</tspan>
 
-<tspan x="10" y="1226">[10744:0621/181747.148811:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager dete\</tspan>
-<tspan x="10" y="1242">cted</tspan>
+<tspan x="10" y="1226">[5440:0621/212310.167381:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="1242">ted</tspan>
 
-<tspan x="10" y="1258">[10781:0621/181747.197993:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple \</tspan>
-<tspan x="10" y="1274">threads in process gpu-process. </tspan>
+<tspan x="10" y="1258">[5473:0621/212310.196013:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="1274">hreads in process gpu-process. </tspan>
 
-<tspan x="10" y="1290">[10744:0621/181747.252256:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="1306">el.</tspan>
+<tspan x="10" y="1290">[5440:0621/212310.243848:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1306">l.</tspan>
 
-<tspan x="10" y="1322">[10744:0621/181747.253045:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="1338">el.</tspan>
+<tspan x="10" y="1322">[5440:0621/212310.244558:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1338">l.</tspan>
 
-<tspan x="10" y="1354">[10744:0621/181747.253734:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="1370">el.</tspan>
+<tspan x="10" y="1354">[5440:0621/212310.245354:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1370">l.</tspan>
 
-<tspan x="10" y="1386">[10744:0621/181747.255890:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="1402">el.</tspan>
+<tspan x="10" y="1386">[5440:0621/212310.245825:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1402">l.</tspan>
 
-<tspan x="10" y="1418">[10744:0621/181747.256362:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create chann\</tspan>
-<tspan x="10" y="1434">el.</tspan>
+<tspan x="10" y="1418">[5440:0621/212310.246240:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1434">l.</tspan>
 
-<tspan x="10" y="1450">&gt; server listening on http-port 57283</tspan>
+<tspan x="10" y="1450"></tspan>
 
-<tspan x="10" y="1466"></tspan>
+<tspan x="10" y="1466">browserTest - opened http://127.0.0.1:62007/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
-<tspan x="10" y="1482">browserTest - opened http://127.0.0.1:51883/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1482"></tspan>
 
-<tspan x="10" y="1498"></tspan>
+<tspan x="10" y="1498">[5440:0621/212310.742882:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:62007/asset\</tspan>
+<tspan x="10" y="1514">s.swgg.swagger.json</tspan>
 
-<tspan x="10" y="1514">[10744:0621/181747.809968:INFO:CONSOLE(266)] "Error: browser - 0 GET http://127.0.0.1:51883/asse\</tspan>
-<tspan x="10" y="1530">ts.swgg.swagger.json</tspan>
+<tspan x="10" y="1530">    "..."</tspan>
 
-<tspan x="10" y="1546">    "..."</tspan>
+<tspan x="10" y="1546">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:62007/assets.swgg.swagger.json", so\</tspan>
+<tspan x="10" y="1562">urce: file:///home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/electron.164243ac8570.1108\</tspan>
+<tspan x="10" y="1578">8b8ce2189.html (266)</tspan>
 
-<tspan x="10" y="1562">onTimeout - timeout-error - 1 ms - ajax GET http://127.0.0.1:51883/assets.swgg.swagger.json", so\</tspan>
-<tspan x="10" y="1578">urce: file:///home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/electron.16423910f610.ab87\</tspan>
-<tspan x="10" y="1594">c4ecaea9b.html (266)</tspan>
+<tspan x="10" y="1594">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
-<tspan x="10" y="1610">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="1610"></tspan>
 
-<tspan x="10" y="1626"></tspan>
+<tspan x="10" y="1626">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/b\</tspan>
+<tspan x="10" y="1642">uild/screenshot.npmTest.browser.%2F.png</tspan>
 
-<tspan x="10" y="1642">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/b\</tspan>
-<tspan x="10" y="1658">uild/screenshot.npmTest.browser.%2F.png</tspan>
+<tspan x="10" y="1658"></tspan>
 
-<tspan x="10" y="1674"></tspan>
+<tspan x="10" y="1674">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/b\</tspan>
+<tspan x="10" y="1690">uild/screenshot.npmTest.browser.%2F.html</tspan>
 
-<tspan x="10" y="1690">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/b\</tspan>
-<tspan x="10" y="1706">uild/screenshot.npmTest.browser.%2F.html</tspan>
+<tspan x="10" y="1706"></tspan>
 
-<tspan x="10" y="1722"></tspan>
+<tspan x="10" y="1722">browserTest - exit-code 0 - http://127.0.0.1:62007/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
 
-<tspan x="10" y="1738">browserTest - exit-code 0 - http://127.0.0.1:51883/index.html?modeTest=1&amp;timeoutDefault=1</tspan>
+<tspan x="10" y="1738"></tspan>
 
 <tspan x="10" y="1754"></tspan>
 
-<tspan x="10" y="1770"></tspan>
+<tspan x="10" y="1770">browserTest - merged coverage from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp\</tspan>
+<tspan x="10" y="1786">/coverage.npmTest.browser.%2Findex.html.json</tspan>
 
-<tspan x="10" y="1786">browserTest - merged coverage from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp\</tspan>
-<tspan x="10" y="1802">/coverage.npmTest.browser.%2Findex.html.json</tspan>
+<tspan x="10" y="1802"></tspan>
 
 <tspan x="10" y="1818"></tspan>
 
-<tspan x="10" y="1834"></tspan>
+<tspan x="10" y="1834">browserTest - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/\</tspan>
+<tspan x="10" y="1850">tmp/test-report.npmTest.browser.%2Findex.html.json</tspan>
 
-<tspan x="10" y="1850">browserTest - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/\</tspan>
-<tspan x="10" y="1866">tmp/test-report.npmTest.browser.%2Findex.html.json</tspan>
+<tspan x="10" y="1866"></tspan>
 
-<tspan x="10" y="1882"></tspan>
+<tspan x="10" y="1882">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
 
-<tspan x="10" y="1898">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1898">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1914">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1914">File                            |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 
-<tspan x="10" y="1930">File                            |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="1930">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1946">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1946">   node-swgg-itunes-search/     |       100 |     92.75 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1962">   node-swgg-itunes-search/     |       100 |     92.75 |       100 |       100 |</tspan>
+<tspan x="10" y="1962">      example.js                |       100 |     92.86 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1978">      example.js                |       100 |     92.86 |       100 |       100 |</tspan>
+<tspan x="10" y="1978">      lib.swgg_itunes_search.js |       100 |       100 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1994">      lib.swgg_itunes_search.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1994">      test.js                   |       100 |     77.78 |       100 |       100 |</tspan>
 
-<tspan x="10" y="2010">      test.js                   |       100 |     77.78 |       100 |       100 |</tspan>
+<tspan x="10" y="2010">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="2026">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="2026">All files                       |       100 |     92.75 |       100 |       100 |</tspan>
 
-<tspan x="10" y="2042">All files                       |       100 |     92.75 |       100 |       100 |</tspan>
+<tspan x="10" y="2042">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="2058">--------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="2058"></tspan>
 
-<tspan x="10" y="2074"></tspan>
+<tspan x="10" y="2074">created coverage file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/coverage.ht\</tspan>
+<tspan x="10" y="2090">ml/index.html</tspan>
 
-<tspan x="10" y="2090">created coverage file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/coverage.ht\</tspan>
-<tspan x="10" y="2106">ml/index.html</tspan>
+<tspan x="10" y="2106"></tspan>
 
-<tspan x="10" y="2122"></tspan>
+<tspan x="10" y="2122">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/\</tspan>
+<tspan x="10" y="2138">build/test-report.json</tspan>
 
-<tspan x="10" y="2138">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/\</tspan>
-<tspan x="10" y="2154">build/test-report.json</tspan>
+<tspan x="10" y="2154"></tspan>
 
-<tspan x="10" y="2170"></tspan>
+<tspan x="10" y="2170">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2186">-------------------------------------------------------</tspan>
+<tspan x="10" y="2186">| test-report - npmTest - node - linux v10.5.0 - 2018-06-21T21:23:09.246Z</tspan>
 
-<tspan x="10" y="2202">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-21T18:08:14.648Z</tspan>
+<tspan x="10" y="2202">|   17248 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="2218">|  588920 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2218">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2234">-------------------------------------------------------</tspan>
+<tspan x="10" y="2234">| test-report - npmTestPublished - node - linux v10.5.0 - 2018-06-21T21:22:01.148Z</tspan>
 
-<tspan x="10" y="2250">| test-report - npmTest - node - linux v10.5.0 - 2018-06-21T18:07:54.724Z</tspan>
+<tspan x="10" y="2250">|   17902 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="2266">|   17259 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2266">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2282">-------------------------------------------------------</tspan>
+<tspan x="10" y="2282"></tspan>
 
-<tspan x="10" y="2298"></tspan>
+<tspan x="10" y="2298">created test-report file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/test-rep\</tspan>
+<tspan x="10" y="2314">ort.html</tspan>
 
-<tspan x="10" y="2314">created test-report file /home/travis/build/kaizhu256/node-swgg-itunes-search/tmp/build/test-rep\</tspan>
-<tspan x="10" y="2330">ort.html</tspan>
+<tspan x="10" y="2330"></tspan>
 
 <tspan x="10" y="2346"></tspan>
 
-<tspan x="10" y="2362"></tspan>
+<tspan x="10" y="2362">npmTest - 0 failed tests</tspan>
 
-<tspan x="10" y="2378">npmTest - 0 failed tests</tspan>
+<tspan x="10" y="2378"></tspan>
 
 <tspan x="10" y="2394"></tspan>
 
-<tspan x="10" y="2410"></tspan>
-
-<tspan x="10" y="2426">[MODE_BUILD=npmTest] - 2018-06-21T18:18:04.946Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2410">[MODE_BUILD=npmTest] - 2018-06-21T21:23:27.870Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
