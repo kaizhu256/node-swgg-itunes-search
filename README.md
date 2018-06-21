@@ -10,6 +10,8 @@ this zero-dependency package will provide a swagger-client for itunes-search's w
 
 [![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-itunes-search.svg)](https://travis-ci.org/kaizhu256/node-swgg-itunes-search) [![coverage](https://kaizhu256.github.io/node-swgg-itunes-search/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-itunes-search/build/coverage.html/index.html)
 
+[![NPM](https://nodei.co/npm/swgg-itunes-search.png?downloads=true)](https://www.npmjs.com/package/swgg-itunes-search)
+
 [![build commit status](https://kaizhu256.github.io/node-swgg-itunes-search/build/build.badge.svg)](https://travis-ci.org/kaizhu256/node-swgg-itunes-search)
 
 | git-branch : | [master](https://github.com/kaizhu256/node-swgg-itunes-search/tree/master) | [beta](https://github.com/kaizhu256/node-swgg-itunes-search/tree/beta) | [alpha](https://github.com/kaizhu256/node-swgg-itunes-search/tree/alpha)|
@@ -103,7 +105,7 @@ this script will run a web-demo of swgg-itunes-search
 instruction
     1. save this script as example.js
     2. run the shell command:
-        $ npm install kaizhu256/node-swgg-itunes-search#alpha && PORT=8081 node example.js
+        $ npm install swgg-itunes-search && PORT=8081 node example.js
     3. open a browser to http://127.0.0.1:8081 and play with the web-demo
     4. edit this script to suit your needs
 */
